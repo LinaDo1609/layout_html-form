@@ -1,1 +1,20 @@
 /* styles go here */
+.personal_info,
+.regist,
+.info,
+.additional {
+  margin-bottom: 20px;
+}
+
+.sur_name,
+.name,
+.age,
+.birthDate,
+.email,
+.cat_dog,
+.color,
+.bedTime,
+.car,
+.comment {
+  margin-bottom: 10px;
+}
