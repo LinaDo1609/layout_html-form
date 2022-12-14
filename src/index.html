@@ -12,10 +12,10 @@
   </head>
   <body>
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application">
-      <fieldset class="personal_info">
+      <fieldset class="fieldSet">
         <legend>Personal information</legend>
 
-        <div class="sur_name">
+        <div class="wrapper">
           <label for="surname">Surname: </label>
           <input 
             type="text" 
@@ -25,7 +25,7 @@
           >
         </div>
 
-        <div class="name">
+        <div class="wrapper">
           <label for="name">Name: </label>
           <input 
             type="text" 
@@ -35,7 +35,7 @@
           >
         </div>
 
-        <div class="age">
+        <div class="wrapper">
           <label for="age">How old are You?</label>
           <input 
             type="number" 
@@ -47,7 +47,7 @@
           >
         </div>
 
-        <div class="birthDate">
+        <div class="wrapper">
           <label for="birth_date">Full date of birth:</label>
           <input 
             type="date" 
@@ -56,7 +56,7 @@
           >
         </div>
 
-        <div class="term">
+        <div class="wrapper">
           <label for="term">I accept the term of the agreement</label>
           <input 
             type="checkbox" 
@@ -66,10 +66,10 @@
         </div>
       </fieldset>
 
-      <fieldset class="regist">
+      <fieldset class="fieldSet">
         <legend>Registration</legend>
 
-        <div class="email">
+        <div class="wrapper">
           <label for="mail">E-mail:</label>
           <input 
             type="email" 
@@ -80,7 +80,7 @@
           >
         </div>
 
-        <div class="password">
+        <div class="wrapper">
           <label for="pass">Password:</label>
           <input 
             type="password" 
@@ -90,10 +90,10 @@
         </div>
       </fieldset>
 
-      <fieldset class="info">
+      <fieldset class="fieldSet">
         <legend>An interesting fact about you!</legend>
 
-        <div class="cat_dog">
+        <div class="wrapper">
           <label>Do you love cats?</label>
 
           <input 
@@ -111,7 +111,7 @@
           <label for="no">No</label>
         </div>
 
-        <div class="color">
+        <div class="wrapper">
           <label for="color">What is your favorite color?</label>
           <input 
             type="color" 
@@ -120,7 +120,7 @@
           >
         </div>
 
-        <div class="bedTime">
+        <div class="wrapper">
           <label for="sleep_time">What time do you go to bed?</label>
           <input 
             type="time" 
@@ -129,7 +129,7 @@
           >
         </div>
 
-        <div class="car">
+        <div class="wrapper">
           <label for="favorite_car">What are your favorite brand of cars?</label>
           <select 
             name="favoriteCar" 
@@ -142,7 +142,7 @@
           </select>
         </div>
 
-        <div class="rate_out">
+        <div class="wrapper">
           <label for="rate">How do you rate our work?</label>
           <input 
             type="range" 
@@ -153,10 +153,10 @@
         </div>
       </fieldset>
 
-      <fieldset class="additional">
+      <fieldset class="fieldSet">
         <legend>Additional info:</legend>
 
-        <div class="comment">
+        <div class="wrapper">
           <label for="comm">Comments:</label>
           <textarea 
             name="comments" 
@@ -167,7 +167,7 @@
           </textarea>
         </div>
 
-        <div class="recommend">
+        <div class="wrapper">
           <label for="rec">Would you recommend us?</label>
           <select 
           name="recom" 
@@ -180,7 +180,7 @@
 
       </fieldset>
 
-      <div class="submit">
+      <div class="button">
         <input 
           type="submit" 
           value="Submit"
